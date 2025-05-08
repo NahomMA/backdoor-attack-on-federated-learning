@@ -1,5 +1,5 @@
-from data_loader import DataSetLoader
-from iid_data_partition import IIDDataPartition
+from .data_loader import DataSetLoader
+from .iid_data_partition import IIDDataPartition
 
 
 __all__ = ['DataSetLoader', 'IIDDataPartition']
